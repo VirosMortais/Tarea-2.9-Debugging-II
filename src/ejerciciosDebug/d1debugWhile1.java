@@ -8,21 +8,25 @@ import java.util.Scanner;
  * Numero 3 
  */
 
+/*El condigo no funciona ya que nunca entra en lo bucle, pues la condicion siempre sera falsa
+la condicion cierta seria (i<=num)*/
+
 public class d1debugWhile1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num =0;
+		int num;
 		int i = 1;
 		
 		//solicito por pantalla numero a calcular la tabla
-		System.out.print("Entra numero: ");
 		Scanner sc = new Scanner(System.in);
+		
+                System.out.print("Entra numero: ");
 		num = sc.nextInt();
 		
 		System.out.println("Imprimo los numeros");
 		
-		while (i>num) {
+		while (i<=num) {
 			System.out.println("Numero "+i);
 			i++;
 		}

@@ -16,11 +16,11 @@ public class d4debugFactorial {
 		num = sc.nextInt();
 		fact = num;
 		num2 = num;
-		while (num2>2) {
-			num2 = num2 -1;
-			fact = num * num2;			
+		while (num2>1) {//la expresion estaba mal ya que el nunca entraria ya que los valores eran iguales.
+			num2--;
+			fact *= num2;//no calculavas el fact, ya que fact es un acumulador, y simplemente estabas guardando la informacion de num * num2.		
 		}
-		System.out.print("El factorial de "+num+" es "+fact);
+		System.out.println("El factorial de "+num+" es "+fact);
 
 	}
 

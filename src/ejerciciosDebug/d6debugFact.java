@@ -15,7 +15,7 @@ public class d6debugFact {
    // Imprime factorial de n
    public static void main(String[] args) {
       int n = 20;
-      int factorial = 1;
+      double factorial = 1;
  
       // n! = 1*2*3...*n
       //Añade puntos de interrupcion condicionales para que el bucle se pare...

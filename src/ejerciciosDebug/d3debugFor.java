@@ -22,7 +22,7 @@ public class d3debugFor {
 		
 		System.out.println("Imprimo los numeros");
 		
-		for (int i = 0; i<num; i++) {
+		for (int i = 1; i<=num; i++) {
 			System.out.println("Numero "+i);
 			i++;
 		}
